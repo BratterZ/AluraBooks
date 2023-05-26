@@ -15,6 +15,7 @@
     --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
     --fonte-principal: "Poppins";
     --azul: #002F52;
+    --cinza: #858585;
 }
 
 body{
@@ -22,4 +23,11 @@ body{
     font-family: var(--fonte-principal);
     font-size: 16px;
     font-weight: 400;
+}
+
+.rodape{
+    padding: 1em 0 1.5em 2em;
+    color: var(--cinza);
+    background-color: var(--branco);
+    border-top: 1px solid black;
 }
