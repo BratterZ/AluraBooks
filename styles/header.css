@@ -58,3 +58,40 @@
 .container__botao{
     display: none;
 }
+
+.container__titulo{
+    display: none;
+}
+
+@media screen and (min-width: 1024px){
+
+    .container{
+        padding-left: 4em;
+        padding-right: 4em;
+    }
+
+    .container__titulo{
+        display: block;
+        font-weight: 400;
+        font-size: 30px;
+        font-family: var(--fonte-secundaria);
+    }
+
+    .container__titulo--negrito{
+        font-weight: 700;
+    }
+    
+    .cabecalho__menu-hamburguer, .imagem__favorito{
+        display: none;
+    }
+
+    .opcoes{
+        display: flex;
+        text-transform: uppercase;
+        color: var(--preto);
+    }
+
+    .opcoes__item{
+        padding: 1em;
+    }
+}    
