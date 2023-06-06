@@ -21,6 +21,10 @@
     align-items: center;
 }
 
+.container__texto{
+    display: none;
+}
+
 .container__imagem{
     padding: 0.5em;
 }
@@ -103,4 +107,31 @@
     .opcoes__botao{
         display: none;
     }
-}    
+}  
+
+@media screen and (min-width:1728px) {
+
+    .container{
+        gap: 25px
+    }
+
+    .container__texto{
+        display: block;
+        font-size: 20px;
+    }
+
+    .container__link{
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .cabecalho{
+        padding: 0 1.5em;
+    }
+
+    .opcoes{
+        margin-right: auto;
+    }
+}
