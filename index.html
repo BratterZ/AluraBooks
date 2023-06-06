@@ -43,7 +43,29 @@
         </div>
 
         <ul class="opcoes">
-            <li class="opcoes__item">Categorias</li>
+            <input type="checkbox" id="opcoes__menu" class="opcoes__botao">
+            <label for="opcoes__menu">
+                <li class="opcoes__item">Categorias</li>
+            </label>
+
+            <ul class="lista-menu">
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Programação</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Front-end</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Infraestrutura</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Business</a>
+                </li>
+                <li class="lista-menu__item">
+                    <a href="#" class="lista-menu__link">Desing & UX</a>
+                </li>
+            </ul>
+
             <li class="opcoes__item"><a href="#" class="item__link"></a>Favoritos</li>
             <li class="opcoes__item"><a href="#" class="item__link"></a>Minha estante</li>
         </ul>
@@ -176,13 +198,48 @@
             </div>
         </div>
         <div class="topicos__contato">
-            <h3 class="contato__titulo">Fique por dentro das novidades!</h3>
-            <h4 class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</h4>
+            <div class="contato__descricao">
+                <h3 class="contato__titulo">Fique por dentro das novidades!</h3>
+                <h4 class="contato__texto">Atualizações de e-books, novos livros, promoções e outros.</h4>
+            </div>
             <input  class="contato__email" type="email" placeholder="Cadastre seu e-mail">
         </div>
     </section>
+
+
     <footer class="rodape">
         <p class="rodape__texto">Grupo Alura</p>
+        <ul class="rodape-lista">
+            <li class="rodape-lista__titulo">Educação</li>
+            <li class="rodape-lista__item">              
+                <a href="#" class="rodape-lista__link"><img src="imagens/caelum.png" alt="Logo Caelum"></a>
+            </li>
+            <li class="rodape-lista__item">
+                <a href="#" class="rodape-lista__link"><img src="imagens/casa.png" alt="Logo Casa do código"></a>
+            </li>
+        </ul>
+
+        <ul class="rodape-lista">
+            <li class="rodape-lista__titulo">Educação Online</li>
+            <li class="rodape-lista__link"><img src="imagens/Alura.png"></li>
+            <li class="rodape-lista__link"><img src="imagens/empresas.png"></li>
+            <li class="rodape-lista__link"><img src="imagens/latam.png"></li>
+            <li class="rodape-lista__link"><img src="imagens/start.png"></li>
+            <li class="rodape-lista__link"><img src="imagens/musicdot.png"></li>
+            <li class="rodape-lista__link"><img src="imagens/lingua.png"></li>
+            <li class="rodape-lista__link"><img src="imagens/pm3.png"></li>
+        </ul>
+
+        <ul class="rodape-lista">
+            <li class="rodape-lista__titulo">Educação Online</li>
+            <li class="rodape-lista__link"><img src="imagens/hipster-ponto.png"></li>
+            <li class="rodape-lista__link"><img src="imagens/scuba-dev.png"></li>
+            <li class="rodape-lista__link"><img src="imagens/ponto-tech.png"></li>
+            <li class="rodape-lista__link"><img src="imagens/boss.png"></li>
+            <li class="rodape-lista__link"><img src="imagens/carreira.png"></li>
+            <li class="rodape-lista__link"><img src="imagens/hipster.png"></li>
+            <li class="rodape-lista__link"><img src="imagens/guj.png"></li>
+        </ul>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
