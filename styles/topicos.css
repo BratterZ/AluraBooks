@@ -109,3 +109,18 @@
         font-weight: 500;
     }
 }
+
+@media screen and (min-width: 1728px){
+    .topicos__links{
+        width: 50%;
+    }
+
+    .topicos__contato{
+        padding: 5em 15vw;
+    }
+
+    .contato__descricao{
+        margin-right: 0;
+        width: 35%;
+    }
+}
